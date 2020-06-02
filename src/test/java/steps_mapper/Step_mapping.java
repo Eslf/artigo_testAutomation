@@ -23,6 +23,7 @@ public class Step_mapping {
 
 	private static WebDriver driver;
 	Random random = new Random();
+
 	
 	// Steps para criar uma nova conta
 	@Given ("Acessada a pagina da loja")
@@ -38,7 +39,7 @@ public class Step_mapping {
 	public void signInButton_click() {
 	}
 	
-	@Given ("O usuario preenche um e-mail e clica no botao de Create an account")
+	@When ("O usuario preenche um e-mail e clica no botao de Create an account")
 	public void typeEmailNewAccountButton_click() {
 		
 	}
@@ -65,9 +66,9 @@ public class Step_mapping {
 	
 	
 	
-	
-	// Parte fora do artigo 
 	/*
+	// Parte fora do artigo 
+	
 	@Given ("Acessada a pagina da loja")
 	   public void lojahomePage_open() {
 	   	System.setProperty("webdriver.firefox.driver", "/usr/local/bin/geckodriver");
@@ -83,7 +84,7 @@ public class Step_mapping {
 		homePage.signInButton_click();
 	}
 	
-	@Given ("Ao preencher um e-mail e clicar no botao de Create an account")
+	@When ("O usuario preenche um e-mail e clica no botao de Create an account")
 	public void typeEmailNewAccountButton_click() {
 		SignInPage signinPage = new SignInPage(driver);
 		signinPage.typeNewEmail();
@@ -91,7 +92,7 @@ public class Step_mapping {
 		
 	}
 	
-	@And ("E preencher todos os dados obrigatorios da compra")
+	@And ("E preenche todos os dados obrigatorios da compra")
 	public void fillOutAccountFormAndRegisterButton_click() {
 		RegisterPage registerPage = new RegisterPage(driver);
 		registerPage.fillOutForm_method(driver);
