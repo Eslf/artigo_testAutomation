@@ -56,16 +56,6 @@ public class Step_mapping {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	/*
 	// Parte fora do artigo 
 	
