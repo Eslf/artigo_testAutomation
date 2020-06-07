@@ -1,7 +1,6 @@
 package models;
 
 public class Cadastro {
-
 	
 		// Atributos relativos a informacoes de usuario
 	
@@ -21,21 +20,6 @@ public class Cadastro {
 		// Construtores
 		
 		public Cadastro() {}
-
-		public Cadastro(String nome, String sobrenome, String email, String senha, String telefone, String rua,
-				String cidade, String cep, String estado, String aliasEndereco) {
-			super();
-			this.nome = nome;
-			this.sobrenome = sobrenome;
-			this.email = email;
-			this.senha = senha;
-			this.telefone = telefone;
-			this.rua = rua;
-			this.cidade = cidade;
-			this.cep = cep;
-			this.estado = estado;
-			this.aliasEndereco = aliasEndereco;
-		}
 
 		// Getters e Setters
 		
